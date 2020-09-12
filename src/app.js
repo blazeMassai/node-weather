@@ -112,12 +112,12 @@ app.get('/help/*', (req,res)=>{
 
 // the 404 route is to be placed last since node will willcheck routes sequantially 
 
-// app.get('*', (req, res) => {
-//     res.render('404', {
-//         title: 'Help',
-//         name: 'Reward One'
-//     })
-// })
+app.get('*', (req, res) => {
+    res.render('404', {
+        title: 'Help',
+        name: 'Reward One'
+    })
+})
 
 
 
