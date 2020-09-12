@@ -1,0 +1,1 @@
+nikitumia npm-run basi views inakaa kwenye root, nikitumia nodemon au node app.js views inakaa inside source
