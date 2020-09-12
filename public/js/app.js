@@ -32,7 +32,7 @@ weatherForm.addEventListener('submit', (e) => {
 
     const location = search.value
 
-    const anuani = 'http://localhost:3000/weather?address=' +location
+    const anuani = '/weather?address=' +location
  
     // console.log(location);
 
