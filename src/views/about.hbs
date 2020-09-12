@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/tailwind.min.css">
+        <link rel="icon" href="/img/weather.png" type="image/x-icon">
+    </head>
+    <body>
+
+        <!--Nav-->
+{{>navbar}}
+
+<!-- Full-width fluid until the `lg` breakpoint, then lock to container -->
+  <div class="lg:container lg:mx-auto pt-32">
+    <!-- ... -->
+    <h1 class="text-5xl sm:text-lg md:text-xl lg:text-2xl xl:text-6xl">Weather</h1>
+    <div class="md:flex bg-white rounded-lg p-6">
+        <img class="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" src="/img/ree.jpg">
+          <div class="text-center md:text-left">
+            <h2 class="text-lg">Ree Donford</h2>
+            <div class="text-purple-500">Surveyor</div>
+            <div class="text-gray-600">kiduku7@money.com</div>
+            <div class="text-gray-600">(255) 765-4321</div>
+          </div>
+    </div>
+
+    
+  </div>
+      
+
+
+    
+
+
+        {{>footer}}
+        <script src="" async defer></script>
+    </body>
+</html>

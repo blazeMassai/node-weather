@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/tailwind.min.css">
+        <link rel="icon" href="/img/weather.png" type="image/x-icon">
+    </head>
+    <body>
+
+        <!--Nav-->
+
+        {{>navbar}}
+
+<!-- Full-width fluid until the `lg` breakpoint, then lock to container -->
+  <div class="lg:container lg:mx-auto pt-32">
+    <!-- ... -->
+
+
+    <div class="flex flex-wrap p-3">
+
+        
+          <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+             
+              <div class="p-4 flex-1 flex flex-col" style="
+        ">
+                <h3 class="mb-4 text-2xl">My heading</h3>
+                <div class="mb-4 text-grey-darker text-sm flex-1">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+                <a href="#" class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style="
+        ">Twitter</a>
+              </div>
+            </div>  
+          </div>
+          
+          <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+             
+              <div class="p-4 flex-1 flex flex-col" style="
+        ">
+                <h3 class="mb-4 text-2xl">My much longer heading</h3>
+                <div class="mb-4 text-grey-darker text-sm flex-1">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempore sapiente eveniet quibusdam ab ea, quaerat placeat numquam aspernatur, accusamus magnam neque.</p>
+                </div>
+                <a href="#" class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style="
+        ">Twitter</a>
+              </div>
+            </div>  
+          </div>
+          
+          <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+              
+              <div class="p-4 flex-1 flex flex-col" style="
+        ">
+                <h3 class="mb-4 text-2xl">My heading</h3>
+                <div class="mb-4 text-grey-darker text-sm flex-1">
+                  <p>Shorter text.</p>
+                </div>
+                <a href="#" class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style="
+        ">Twitter</a>
+              </div>
+            </div>  
+          </div>
+
+    </div>
+
+      
+        
+    </div>
+    
+
+
+        {{>footer}}
+        <script src="" async defer></script>
+    </body>
+</html>

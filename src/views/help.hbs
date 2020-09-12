@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Help</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/tailwind.min.css">
+        <link rel="icon" href="/img/weather.png" type="image/x-icon">
+    </head>
+    <body>
+
+        <!--Nav-->
+
+        {{>navbar}}
+
+<!-- Full-width fluid until the `lg` breakpoint, then lock to container -->
+                <div class="lg:container lg:mx-auto pt-32 items-center">
+
+                    <p class="font-mono text-lg text-gray-800 text-center text-red-700 hover:underline">
+                        I'm a monospaced paragraph.
+                    </p>
+
+                    <table class="table-auto">
+                        <thead>
+                            <tr>
+                            <th class="px-4 py-2">Title</th>
+                            <th class="px-4 py-2">Author</th>
+                            <th class="px-4 py-2">Views</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td class="border px-4 py-2">Intro to CSS</td>
+                            <td class="border px-4 py-2">Adam</td>
+                            <td class="border px-4 py-2">858</td>
+                            </tr>
+                            <tr class="bg-gray-100">
+                            <td class="border px-4 py-2">A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
+                            <td class="border px-4 py-2">Adam</td>
+                            <td class="border px-4 py-2">112</td>
+                            </tr>
+                            <tr>
+                            <td class="border px-4 py-2">Intro to JavaScript</td>
+                            <td class="border px-4 py-2">Chris</td>
+                            <td class="border px-4 py-2">1,280</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                        
+                </div>
+    
+
+
+        {{>footer}}
+        <script src="" async defer></script>
+    </body>
+</html>
